@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  color: #333;
+}
+.container {
+  width: 100%;
+  min-width: 380px;
+  max-width: 900px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+h3 {
+  height: 50px;
+  padding: 10px;
+  font-size: 29px;
+  line-height: 1;
+  background: #555;
+  color: #fff;
+  box-sizing: border-box;
+}
+.calendar {
+  width: calc(100% - 20px);
+  margin: 10px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.calendar th,
+.calendar td {
+  width: calc(100% / 7);
+  height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+.calendar th {
+  font-size: 18px;
+  line-height: 30px;
+}
+.calendar td {
+  font-size: 16px;
+  text-align: left;
+  text-indent: 10px;
+  line-height: 30px;
+}
+.previousAndNext {
+  margin: 20px 10px;
+  height: 38px;
+  overflow: normal;
+}
+.previousAndNext button {
+  float: left;
+  display: block;
+  height: 38px;
+  padding: 10px;
+  width: 50%;
+  box-sizing: border-box;
+  font-size: 18px;
+  line-height: 1;
+  color: rgb(241, 246, 248);
+  background: rgb(2, 165, 230);
+  border-radius: 2px;
+  border-color: #fff;
+}
+.selectArea {
+  height: 36px;
+  margin: 10px;
+}
+.jumpTo {
+  float: left;
+  width: 80px;
+  height: 36px;
+  padding: 8px 0;
+  font-size: 18px;
+  line-height: 1;
+}
+.selectArea select {
+  float: left;
+  width: calc((100% - 84px) / 2);
+  height: 36px;
+  margin-left: 2px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+.bg-info {
+  background: rgb(24, 79, 181);
+  color: #fff;
+}
